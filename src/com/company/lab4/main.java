@@ -6,7 +6,7 @@ public class main {
     public static void main(String[] args) {
 
         ExecutorService executorService =
-                Executors.newFixedThreadPool(18);
+                Executors.newFixedThreadPool(18000000);
 
         executorService.submit(() -> {
             try {

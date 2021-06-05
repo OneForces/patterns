@@ -4,7 +4,8 @@ public class Singleton1 {
 
     private Singleton1 getInstance() {
         if (instance == null) {
-            return new Singleton1();
+            instance = new Singleton1();
+            return instance;
         }
         return instance;
     }
